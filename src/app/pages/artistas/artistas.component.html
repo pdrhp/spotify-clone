@@ -1,0 +1,9 @@
+<div class="artistas-preferidos flex">
+  <span class="titulo-bg mt-4">Seus artistas Preferidos</span>
+
+  <div class="card-artistas mt-9 flex">
+    <app-card-artistas *ngFor="let artista of artistas" [urlImagemArtista]="artista.imagemUrl" [nomeArtista]="artista.nome" (click)="irParaPaginaArtista(artista.id)"></app-card-artistas>
+  </div>
+
+</div>
+

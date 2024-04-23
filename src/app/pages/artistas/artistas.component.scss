@@ -1,0 +1,21 @@
+  .artistas-preferidos{
+    padding: 0 50px;
+    flex-direction: column;
+
+  .titulo-bg{
+    align-self: center;
+  }
+
+  .card-artistas{
+    flex-wrap: wrap;
+    padding: 10px;
+    align-self: center;
+    justify-content: center;
+    gap: 15px;
+    max-width: 1200px;
+  }
+
+
+  }
+
+

@@ -1,0 +1,50 @@
+@import 'variaveis';
+
+:host{
+
+
+  input{
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 8px;
+    border: 1px solid $preto-transparent-20;
+    background-color: $cor-fundo2;
+    outline: none;
+    color: $cor-primaria;
+    font-size: 1rem;
+    font-weight: 500;
+
+    &::placeholder{
+      color: $branco-transparent-30;
+      font-size: .85rem;
+    }
+
+    &:focus, &:active{
+      border-color: $branco;
+      border-width: 2px;
+    }
+  }
+
+
+  .sugestoes{
+    flex-wrap: wrap;
+
+    span{
+      // background-color: $branco;
+      background-color: preto-transparent-30;
+      margin-right: 5px;
+      padding: 5px 10px;
+      color: $cor-primaria;
+      border: 1px solid $cor-primaria;
+      margin-top: 10px;
+      font-size: .8rem;
+      border-radius: 20px;
+      cursor: pointer;
+
+      &:hover{
+        background-color: rgba($cor-primaria, 0.85);
+        color: $branco;
+      }
+    }
+  }
+}
